@@ -1,0 +1,14 @@
+node_modules/
+
+# Local environment files (keep the example checked in)
+.env
+.env.*
+!.env.example
+
+# Downloaded third-party assets (Bulma, CodeMirror, beautifiers) that get
+# embedded into the standalone HTML; not part of the four-file deliverable.
+.vendor/
+
+npm-debug.log*
+*.log
+.DS_Store
